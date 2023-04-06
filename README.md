@@ -1,7 +1,9 @@
 # htaccess-files-allow-list
 A single `.htaccess` file with configuration directives to enhance the security of a web by only allowing public access to non-sensitive files.
 
-### Description by ChatGPT (GPT-3.5)
+A sample use case: put this in the wp-content folder of a WordPress website.
+
+#### Description by ChatGPT (GPT-3.5)
 The `.htaccess` file is used to configure Apache web servers. This particular file contains directives that control access to specific file types.
 
 The first line, `Order deny,allow`, sets the order in which the Deny and Allow directives will be evaluated. In this case, Deny will be evaluated first.
